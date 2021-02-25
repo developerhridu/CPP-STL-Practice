@@ -2,10 +2,16 @@ Fast I/O for Competitive Programming
 
 when you need a lot of input output in cpp
 then use : #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+or 
+#define optimize() ios_base::sync_with_stdio(0); 
 
 #include <bits/stdc++.h>
 using namespace std;
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+//or use this : 
+
+#define optimize() ios_base::sync_with_stdio(0); 
 
 int main()
 {
