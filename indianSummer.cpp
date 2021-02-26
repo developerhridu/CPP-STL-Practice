@@ -4,7 +4,6 @@ using namespace std;
 void indianSummer()
 {
     int n;
-
     cin >> n;
     vector<pair<string, string>> v(n);
 
@@ -20,6 +19,7 @@ void indianSummer()
 
 int main()
 {
+
     indianSummer();
 
     return 0;
